@@ -14,7 +14,7 @@ Pixelay screenshots and notes are available in the `/pixelay` folder:
 - `pixelay-mobile.png`
 - `notes.md`
 
-✨ Overview
+## ✨ Overview
 
 This project recreates the IntelliToggle marketing homepage using Nuxt 3, Vue 3, and Tailwind CSS, with a strong focus on:
 
@@ -28,7 +28,7 @@ Component-based architecture
 
 The implementation closely matches the provided Figma design and has been validated using Pixelay overlays.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Framework: Nuxt 3
 
@@ -40,7 +40,7 @@ Bundler: Vite (via Nuxt)
 
 Validation Tool: Pixelay
 
-📂 Project Structure
+## 📂 Project Structure
 .
 ├── app/
 │   └── app.vue
@@ -59,7 +59,7 @@ Validation Tool: Pixelay
 ├── nuxt.config.ts
 └── README.md
 
-🧩 Key Components
+## 🧩 Key Components
 Header.vue
 
 Fixed navigation bar
@@ -112,7 +112,7 @@ Accessible CTA sizing
 
 Mobile-friendly navigation
 
-🎯 Assignment Requirements Status
+## 🎯 Assignment Requirements Status
 Requirement	Status
 Nuxt 3 + Vue 3 + Tailwind CSS	✅
 Homepage matches Figma	✅
@@ -142,7 +142,7 @@ Background textures adjusted for performance
 
 Overall layout and hierarchy match the design closely.
 
-▶️ Running the Project Locally
+## ▶️ Running the Project Locally
 npm install
 npm run dev
 
@@ -151,7 +151,7 @@ The app will be available at:
 
 http://localhost:3000
 
-🧠 Implementation Notes
+## 🧠 Implementation Notes
 
 Styling is done entirely with Tailwind CSS
 
@@ -163,9 +163,9 @@ Accessibility and readability were prioritized
 
 Interactive behavior is minimal and purposeful
 
-⏱ Time & Tradeoffs
+## ⏱ Time & Tradeoffs
 
-Total time spent: ~6–7 hours
+Total time spent: ~8-10 hours
 
 Primary focus:
 
@@ -183,7 +183,7 @@ Enhanced accessibility (ARIA, focus states)
 
 Motion effects for subtle UX polish
 
-📌 Final Notes
+## 📌 Final Notes
 
 This project demonstrates:
 
