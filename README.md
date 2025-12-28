@@ -1,24 +1,34 @@
-IntelliToggle Frontend Assignment
+IntelliToggle – Frontend Assignment
 
-This repository contains the implementation of the IntelliToggle homepage, recreated from the provided Figma design as part of the Frontend Developer assignment.
+A responsive, pixel-accurate implementation of the IntelliToggle homepage, built from the provided Figma design as part of the Frontend Developer technical assignment.
 
-The goal was to closely match the visual design, ensure responsiveness across devices, maintain clean and modular code, and validate layout accuracy using Pixelay.
+✨ Overview
 
-🔧 Tech Stack
+This project recreates the IntelliToggle marketing homepage using Nuxt 3, Vue 3, and Tailwind CSS, with a strong focus on:
+
+Visual accuracy
+
+Responsive layout
+
+Clean, maintainable code
+
+Component-based architecture
+
+The implementation closely matches the provided Figma design and has been validated using Pixelay overlays.
+
+🛠 Tech Stack
 
 Framework: Nuxt 3
 
-Language: Vue 3 (Composition API)
+UI Library: Vue 3 (Composition API)
 
 Styling: Tailwind CSS
 
-Build Tooling: Vite (via Nuxt)
+Bundler: Vite (via Nuxt)
 
-Deployment: (add your hosted URL here, e.g. GitHub Pages / Netlify / Firebase Hosting)
+Validation Tool: Pixelay
 
-React / Next.js were intentionally not used, as per assignment requirements.
-
-📁 Project Structure
+📂 Project Structure
 .
 ├── app/
 │   └── app.vue
@@ -28,22 +38,21 @@ React / Next.js were intentionally not used, as per assignment requirements.
 ├── pages/
 │   └── index.vue
 ├── public/
-│   └── logos / images / assets
+│   └── logos / images
 ├── pixelay/
-│   ├── pixelay-desktop.png
-│   ├── pixelay-mobile.png
+│   ├── desktop-overlay.png
+│   ├── mobile-overlay.png
 │   └── notes.md
 ├── tailwind.config.js
 ├── nuxt.config.ts
 └── README.md
 
-Component Breakdown
-
+🧩 Key Components
 Header.vue
 
 Fixed navigation bar
 
-Desktop navigation + CTA
+Desktop navigation with CTA
 
 Mobile hamburger menu with animated toggle (interactive element)
 
@@ -51,17 +60,17 @@ index.vue
 
 Hero section
 
-Feature sections
+Trusted-by logos
+
+Feature explanations
 
 Comparison table
 
-AI feature grid
+AI features section
 
 Pricing & CTAs
 
-Trusted-by logos
-
-Final CTA
+Final CTA block
 
 Footer.vue
 
@@ -69,47 +78,11 @@ Company description
 
 Resource & company links
 
-Newsletter subscription form
-
-🎯 Assignment Requirements Checklist
-Requirement	Status
-Nuxt 3 + Vue 3 + TailwindCSS	✅
-Match Figma homepage	✅
-Responsive (desktop + mobile)	✅
-Interactive element	✅ (mobile menu toggle)
-Pixelay overlays	✅
-Clean, modular code	✅
-📐 Visual Fidelity (Pixelay)
-
-Pixelay was used to compare the implementation against the Figma design.
-
-Included Overlays
-
-pixelay-desktop.png
-
-pixelay-mobile.png
-
-Notes (see /pixelay/notes.md)
-
-Minor spacing differences (2–4px) in some sections
-
-Font rendering slightly differs due to system font fallback
-
-Background texture opacity adjusted for performance
-
-Overall, the layout matches the design closely with no structural deviations.
+Newsletter subscription input
 
 📱 Responsiveness
 
-Desktop-first layout with responsive Tailwind breakpoints
-
-Mobile layout stacks content vertically
-
-Navigation switches to hamburger menu on small screens
-
-Buttons, typography, and spacing adapt smoothly across screen sizes
-
-Tested on:
+The layout is fully responsive and tested across:
 
 Desktop (≥1280px)
 
@@ -117,45 +90,47 @@ Tablet (~768px)
 
 Mobile (~375px)
 
-🧠 Design & Implementation Decisions
+Tailwind breakpoints are used to ensure:
 
-Tailwind-only styling
-No custom CSS files were used; all styling is done via Tailwind utilities for clarity and consistency.
+Proper content stacking
 
-Reusable components
-Header and Footer are extracted for clean separation of concerns.
+Scalable typography
 
-Accessibility considerations
+Accessible CTA sizing
 
-Semantic HTML elements
+Mobile-friendly navigation
 
-Buttons instead of clickable divs
+🎯 Assignment Requirements Status
+Requirement	Status
+Nuxt 3 + Vue 3 + Tailwind CSS	✅
+Homepage matches Figma	✅
+Fully responsive	✅
+Interactive element	✅ (mobile menu)
+Pixelay comparison	✅
+Clean, modular code	✅
+📐 Pixelay Validation
 
-Clear contrast for CTAs
+Pixelay was used to visually compare the implementation against the Figma design.
 
-Mobile menu is keyboard-accessible
+Included:
 
-⏱ Time & Tradeoffs
+Desktop overlay
 
-Total time spent: ~6–7 hours
+Mobile overlay
 
-Focused on:
+Notes on minor deviations
 
-Layout accuracy
+Observations
 
-Responsiveness
+Spacing differences are within 2–4px tolerance
 
-Clean structure
+Font rendering varies slightly due to system font fallback
 
-With more time, I would:
+Background textures adjusted for performance
 
-Add Nuxt Image for optimized asset loading
+Overall layout and hierarchy match the design closely.
 
-Improve accessibility further (ARIA labels, focus states)
-
-Add subtle motion using @vueuse/motion or CSS animations
-
-🚀 Running the Project Locally
+▶️ Running the Project Locally
 npm install
 npm run dev
 
@@ -164,14 +139,46 @@ The app will be available at:
 
 http://localhost:3000
 
-📌 Final Notes
+🧠 Implementation Notes
 
-This project prioritizes:
+Styling is done entirely with Tailwind CSS
+
+No external UI libraries were used
+
+Components are kept small and reusable
+
+Accessibility and readability were prioritized
+
+Interactive behavior is minimal and purposeful
+
+⏱ Time & Tradeoffs
+
+Total time spent: ~6–7 hours
+
+Primary focus:
 
 Visual accuracy
 
-Maintainable structure
+Responsiveness
 
-Clear documentation
+Code clarity
 
-Alignment with production-style Nuxt + Tailwind workflows
+With additional time, potential improvements would include:
+
+Nuxt Image optimization
+
+Enhanced accessibility (ARIA, focus states)
+
+Motion effects for subtle UX polish
+
+📌 Final Notes
+
+This project demonstrates:
+
+Strong frontend fundamentals
+
+Attention to design detail
+
+Real-world Nuxt + Tailwind workflows
+
+Clean, review-ready code structure
