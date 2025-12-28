@@ -1,6 +1,18 @@
-IntelliToggle – Frontend Assignment
+# IntelliToggle – Frontend Assignment
 
-A responsive, pixel-accurate implementation of the IntelliToggle homepage, built from the provided Figma design as part of the Frontend Developer technical assignment.
+A responsive, pixel-accurate marketing landing page built as part of the frontend assignment.
+
+## 🔗 Live Demo
+https://venturseed-intellitoggle.vercel.app/
+
+## 📂 Repository
+https://github.com/SharjilSiddiqui/venturseed-intellitoggle
+
+## 🖼 Pixelay Comparison
+Pixelay screenshots and notes are available in the `/pixelay` folder:
+- `pixelay-desktop.png`
+- `pixelay-mobile.png`
+- `notes.md`
 
 ✨ Overview
 
